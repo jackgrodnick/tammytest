@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>about</title>
+      <title>Home</title>
 
       <!-- stylesheet -->
       <link rel="stylesheet" href="./resources/style.css">
@@ -22,15 +22,15 @@
       <!-- greensock -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 </head>
-<body class="ABOUT">
+<body class="HOME">
 
       <div class="wrapper">
         <div class="wholenav">
             <div class="logo"><img src="./resources/images/tammy-m4.png" alt="logo" class="imggg"></div>
             <div class="nav">
                   <ul>
-                        <a href="./home2.html"><li class="active">Home</li></a>
-                        <li class="active">About</li>
+                        <li class="active">Home</li>
+                        <a href="./about.html"><li class="active">About</li></a>
                         <a href="./services.html"><li class="active">Services</li></a>
                         <a href="./galleries.html"><li class="active">Galleries</li></a>
                         <a href="./contact.html"><li class="active">Contact</li></a>
@@ -48,32 +48,50 @@
             <div class="side-strip">
                   <span class="tammy-ps">TAMMY PAULUS STYLING</span>
             </div>
-            <div class="header-about">
-                  <h1 class="aabout">About</h1>
-                  <p>Tammy Paulus is an extraordinary stylist who continues to outdo herself by exploring and mastering the latest techniques and technologies in hair care and design. With over 20 years’ experience , including having served as Stylist Director at a top ranked Twin Cities salon and other salon leadership roles, you can be confident in Tammy’s very capable hands. From detailed, classic cuts to strong precision shapes Tammy can deliver exactly what you are looking for or help you discover your new you. Tammy is a favorite among photographers and creative directors because of her unfailing ability to deliver a specific look with speed and precision. Tammy’s expertise, confidence and sparkling personality also make her a perfect choice for your wedding – she makes it fun, and you’ll have one less thing to worry about on your big day..</p>
-                  <a href="./services.html"><button>CONTACT ME</button></a>
+            <div class="header">
+                  <h1>Tammy Paulus - Services <br> And Introduction</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni excepturi, maxime, quasi harum dolorum facilis iusto in odio placeat expedita maiores aspernatur delectus. Id et, quos ab illo laboriosam reiciendis?</p>
+                  <a href="./services.html"><button>SERVICES</button></a>
+            </div>
+            <div class="bottom-bar">
+                  <div class="container">
+                        <div class="row">
+                              <div class="col-lg-4">
+                                    <h6>Learn More About Tammy</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque veniam labore repellendus necessitatibus ipsa!</p>
+                              </div>
+                              <div class="col-lg-4">
+                                    <h6>See Some Of Tammy's Work</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque veniam labore repellendus necessitatibus ipsa!</p>
+                              </div>
+                              <div class="col-lg-4">
+                                    <h6>Get In Touch With Tammy</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque veniam labore repellendus necessitatibus ipsa!</p>
+                              </div>
+                        </div>
+                  </div>
             </div>
       </div>
 
       <script type="text/javascript">
 
       TweenMax.from(".logo", 1, {
-            delay: 0.1,
+            delay: 0.4,
             opacity: 0,
             y: 20,
             ease: Expo.easeInOut
       })
 
       TweenMax.staggerFrom(".nav ul li", 1, {
-            delay: 0.1, opacity: 0, y: 20, ease: Expo.easeInOut
+            delay: 0.4, opacity: 0, y: 20, ease: Expo.easeInOut
       }, 0.2)
 
       TweenMax.staggerFrom(".social-media ul li", 1, {
-            delay: 0.1, opacity: 0, y: 20, ease: Expo.easeInOut
+            delay: 0.4, opacity: 0, y: 20, ease: Expo.easeInOut
       }, 0.2)
 
       TweenMax.from(".side-strip", 2, {
-            delay: 0.1,
+            delay: 0.4,
             opacity: 0,
             y: 40,
             ease: Expo.easeInOut

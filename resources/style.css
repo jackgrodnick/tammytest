@@ -1,4 +1,4 @@
-html, body {
+html, .HOME {
       margin: 0;
       padding: 0;
       width: 100%;
@@ -9,6 +9,10 @@ html, body {
 .HOME {
       background: url(./images/unsplash2.jpg) no-repeat 50% 50%;
       background-size: cover;
+}
+
+.ABOUT {
+      background-color: gray;
 }
 
 .nav ul li {
@@ -128,7 +132,7 @@ html, body {
 
 .wholenav {
   height: 80px;
-  background: black;
+  background: ;
 }
 
 
@@ -198,4 +202,32 @@ button {
       -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
         -o-transition: all 0.2s ease-out;
+}
+
+.header-about {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    max-width: 38%;
+    color: white;
+}
+
+.header-about button {
+    margin-top: 12px;
+    border: none;
+    padding: 16px 40px;
+    background: #fff;
+    color: #000;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.aabout {
+  font-weight: bolder;
+}
+
+#halfand {
+  color: black;
 }
